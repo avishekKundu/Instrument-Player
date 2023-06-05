@@ -11,7 +11,13 @@ let saxophone = new Audio("Saxophone.mp3");
 let trumpet = new Audio("Trumpet.mp3");
 let violin = new Audio("Violin.mp3");
 
+let soundActive = true;
 
+guitar.onclick = () => {
+    if(soundActive === true) {
+        
+    }
+}
 
 
 
