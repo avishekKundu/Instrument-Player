@@ -36,7 +36,7 @@ drum.onclick = () => {
     }
     else {
         drm.pause();
-        drm.textContent = "Play";
+        drum.textContent = "Play";
         soundActive = false;
     }
 }
